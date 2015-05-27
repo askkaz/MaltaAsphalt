@@ -1,0 +1,30 @@
+html,
+body {
+    height:100%;
+}
+@light-gray: rgb(231,231,231);
+.social [class*="fa fa-"] {
+    background-color: #0d0d0d;
+    border-radius: 30px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    width: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+.social:hover .fa.fa-facebook {
+    background-color: #3b5998;
+    color:white;
+}
+.navbar-nav li a.facebook {
+    padding: 10px 15px;
+}
+.navbar-default .navbar-nav li.active a:hover {
+    background-color: @light-gray;
+    color: rgb(85,85,85);
+}
+.navbar.navbar-default {
+    border-color: @light-gray;
+}
