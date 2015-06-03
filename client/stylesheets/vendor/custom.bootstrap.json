@@ -12,7 +12,7 @@
     "forms"                : false,
     "buttons"              : false,
 
-    "component-animations" : false,
+    "component-animations" : true,
     "dropdowns"            : false,
     "button-groups"        : false,
     "input-groups"         : false,
