@@ -26,27 +26,43 @@ body {
 }
 .navbar.navbar-default {
     border-color: @light-gray;
-    z-index: -1;
+
 }
-.div-logo {
+.collapse.in{
+    padding-top:15px;
+}
+
+.logo-container {
     background-color: #e9eade;
     color: #3f680e;
-    height: 80px;
+    height: 70px;
     width: 250px;
     position: fixed;
-    top: 25px;
+    top: 0px;
     left: 20px;
     text-align: center;
 }
+
 h1,
 h2 {
-    font-family: 'Niconne', cursive;
-    line-height: 0.5em;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1em;
+    margin:0;
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 1.3em;
 }
 .container{
     height:100%;
     width:100%;
-    background-color: red;
+    background: url('/house.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
     position: fixed;
     top: 50px;
     z-index: -1;
@@ -55,4 +71,42 @@ h2 {
     background-color: red;
     height: 100%;
     width:100%;
+}
+
+.box h1{
+    text-align:center;
+    position:relative;
+    padding-top: 7px;
+}
+.box {
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    background: #e9eade;
+    color: #3f680e;
+}
+
+.effect4
+{
+  position: relative;
+}
+.effect4:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 5px;
+  right: 10px;
+  left: auto;
+  width: 80%;
+  top: 60%;
+  background: #595959;
+  -webkit-box-shadow: 0 15px 10px #595959;
+  -moz-box-shadow: 0 15px 10px #595959;
+  box-shadow: 15px 10px 25px #595959;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(1deg) skewX(10deg);
 }
